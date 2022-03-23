@@ -30,3 +30,12 @@ document.addEventListener('mousemove', e => {
     $('#cursor_acx').style.left = `${d1_r((e.clientX * 100) / root.clientWidth)}%`;
     $('#cursor_acx').style.top = `${d1_r((e.clientY * 100) / root.clientHeight)}%`;
 });
+
+$('#about_me_container').addEventListener('mouseenter', () => {
+    $('#about_me_content_container').style.backgroundColor = '#2400FF30';
+    $('#about_me_title_container').style.backgroundColor = '#2400FF30';
+});
+$('#about_me_container').addEventListener('mouseleave', () => {
+    $('#about_me_content_container').style.backgroundColor = '#2400FF20';
+    $('#about_me_title_container').style.backgroundColor = '#2400FF20';
+});
