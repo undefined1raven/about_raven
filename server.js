@@ -11,5 +11,10 @@ app.get('/', (req, res) => {
     res.render('main.ejs');
 });
 
-app.listen(5600 || process.env.PORT);
+if (process.env.NODE_ENV !== 'production') {
+    server.listen(5600);
+}
+else {
+    server.listen(process.env.PORT);
+}
 console.log('trenulet')
