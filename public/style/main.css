@@ -1,7 +1,7 @@
 
 
 body, html{
-    background-color: #020016;
+    background-color: #000;
     z-index: -3;
     overflow: hidden;
     cursor: url('../visual_assets/cursor_acx.svg'), auto;
@@ -37,15 +37,7 @@ img{
     background: radial-gradient(50% 50% at 50% 50%, #2400FF90 0%, rgba(6, 0, 46, 0) 100%);
 }
 #about_me_container{
-    position: absolute;
-    top: 12.87037037%;
-    left: 6.614583333%;
-    width: 29.0625%;
-    height: 27.12962963%;
-    background-color: #2400FF00;
-    animation: container_in ease-out 0.2s;
-    transition: background-color linear 0.1s;
-    z-index: 5;
+    display: flex;
 }
 #about_me_content_container:hover, #about_me_title_container:hover{
     background-color: #2400FF40;
@@ -61,27 +53,9 @@ img{
     backdrop-filter: blur(1px);
 }
 #about_me_content_container{
-    position: relative;
-    top: 3.754266212%;
-    left: 0%;
-    width: 100%;
-    height: 81.911262799%;
-    background-color: #2400FF20;
-    /* border-left: solid 1px #000AFF; */
-    transition: background-color linear 0.1s;
-}
-#about_me_title_container{
-    position: relative;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 13.993174061%;
     display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    background-color: #2400FF20;
-    transition: background-color linear 0.1s;
 }
+
 #am_title_border_0, #am_title_border_1{
     position: absolute;
     top: 0;
@@ -108,13 +82,27 @@ img{
     width: 0.11vh;
     left: 99.8%;
 }
+#about_me_title_container{
+    position: absolute;
+    top: 22.87037037%;
+    left: 12.395833333%;
+    width: 17.65625%;
+    height: 4.537037037%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #2400FF20;
+    transition: background-color linear 0.1s;
+}
 #about_me_content_acx{
-    padding-left: 5%;
-    padding-right: 3%;
-    top: 0;
-    left: 0;
-    width: 92%;
-    left: 100%;
+    padding-left: 0.87%;
+    padding-right: 2%;
+    position: absolute;
+    top: 27.962962963%;
+    left: 12.395833333%;
+    width: 38.335648148%;
+    height: 39.722222222%;
+    background-color: #2400FF20;
     font-weight: 300;
     color: #FFF;
     font-size: 1.1vw;
