@@ -109,8 +109,8 @@ img{
 }
 #projects_top_container{
     position: absolute;
-    top: 21.018518519%;
-    left: 50.572916667%;
+    top: 9.444444444%;
+    left: 49.791666667%;
     width: 48.385416667%;
     height: 9.166666667%;
     background-color: #0013BA20;
@@ -168,7 +168,7 @@ img{
 }
 .project_x_container{
     position: absolute;
-    left: 50.572916667%;
+    left: 49.791666667%;
     width: 48.385416667%;
     height: 10.092592593%;
     background-color: #0013BA20;
@@ -180,8 +180,8 @@ img{
     background-color: #0013BA40;
 }
 #project_dolores_container{
-    top: 31.296296296%;
-    border-left: solid 2px #8000FF;
+    top: 19.722222222%;
+    border-left: solid 1px #8000FF;
 }
 .project_x_l{
     position: absolute;
@@ -205,12 +205,12 @@ img{
     left: 65.016146394%;
 }
 #ring_relay_container{
-    top: 42.5%;
-    border-left: solid 2px #00FFF0;
+    top: 30.925925926%;
+    border-left: solid 1px #00FFF0;
 }
 #project_eagle_container{
-    top: 53.703703704%;
-    border-left: solid 2px #00FFF0;
+    top: 42.12962963%;
+    border-left: solid 1px #00FFF0;
 }
 #ring_relay_lang_tech_l_0{
     top: 4.587155963%;
@@ -220,4 +220,104 @@ img{
 }
 #ring_relay_lang_tech_l_2{
     top: 65.137614679%;
+}
+#contact_l{
+    position: absolute;
+    top: 85.555555556%;
+    width: 4.583333333%;
+    left: 45.3125%;
+    height: 2.222222222%;
+    border: solid 1px #000AFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #A3A3A3;
+    font-size: 1.8329938900203666vh;/*18px*/
+}
+#contact_ln{
+    position: absolute;
+    top: 87.685185185%;
+    left: 37.604166667%;
+    width: 20.052083333%;
+    height: 0.11vh;
+    /* background-color: #000AFF; */
+}
+
+#contact_ln_0, #contact_ln_0_b, #contact_ln_1, #contact_ln_1_b{
+    position: absolute;
+    top: 85.555555556%;
+    left: 45.833333333%;
+    width: 0.15625%;
+    height: 1px;
+    background-color: #000;
+}
+#contact_ln_1, #contact_ln_1_b{
+    left: 49.322916667%;
+}
+#contact_ln_0_b, #contact_ln_1_b{
+    top: calc(87.685185185% + 0.11%);   
+}
+#contact_ln_0_v, #contact_ln_1_v{
+    position: absolute;
+    top: 86.481481481%;
+    left: 45.3125%;
+    width: 1px;
+    height: calc(0.37037037% + 0.11%);
+    background-color: #000;
+}
+#contact_ln_1_v{
+    left: calc(50% - 0.07%);
+}
+#contact_ln_00, #contact_ln_01{
+    position: absolute;
+    top: 87.685185185%;
+    left: 37.604166667%;
+    width: 7.552083333%;
+    height: 1px;
+    background-color: #000AFF;
+}
+#contact_ln_01{
+    left: 50.15625%;
+}
+#contact_bkg{
+    position: absolute;
+    top: 87.777777778%;
+    left: 37.604166667%;
+    width: 20.052083333%;
+    height: 12.222222222%;
+    background-color: #000AFF10;
+}
+#contact_email_l, #contact_phone_number_l{
+    position: absolute;
+    top: 89.537037037%;
+    left: 38.90625%;
+    font-size: 1.8329938900203666vh;/*18px*/
+    color: #A3A3A3;
+    font-weight: 300;
+}
+#contact_phone_number_l{
+    top: 95.740740741%;
+    left: 42.864583333%;
+}
+#contact_info_separator_ln{
+    position: absolute;
+    top: 93.611111111%;
+    left: 43.333333333%;
+    width: 8.59375%;
+    height: 0.11vw;
+    background-color: #000583;
+}
+#contact_phone_number_deco{
+    position: absolute;
+    top: 95.185185185%;
+    left: 51.302083333%;
+    width: 1.145833333%;
+}
+#project_details_container{
+    position: absolute;
+    top: 56.296296296%;
+    left: 49.791666667%;
+    width: 48.385416667%;
+    height: 27.685185185%;
+    border: solid 1px #303030;
 }
