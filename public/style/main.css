@@ -17,9 +17,12 @@ body, html{
     position: absolute;
     top: 0;
     left: 0;
-    width: auto;
+    width: 100%;
     height: auto;
     z-index: -1;
+}
+div{
+    user-select: none;
 }
 img{
     user-select: none;
@@ -44,14 +47,27 @@ img{
     height: 42.777777778%;
     background-color: #0013BA20;
 }
-
+.project_x_status_l{
+    position: absolute;
+    top: 10.091743119%;
+    left: 2.15285253%;
+    font-size: 1.8329938900203666vh;/*18px*/
+    color: #8000FF;
+    font-weight: 300;
+}
+#project_eagle_status_l{
+    color: #00FFF0;
+}
 #about_me_l, #tech_l{
     position: absolute;
     top: 1.082251082%;
     left: 1.431980907%;
     color: #AAA;
-    font-size: 1.3vw;/*nope 28px*/
+    font-size: 1.1vw;/*nope 28px*/
     font-weight: 300;
+}
+#tech_l{
+    top: 2.675585284%; 
 }
 .blur{
     backdrop-filter: blur(1px);
@@ -196,7 +212,7 @@ img{
 }
 #ring_relay_container{
     top: 30.925925926%;
-    border-left: solid 1px #00FFF0;
+    border-left: solid 1px #8000FF;
 }
 #project_eagle_container{
     top: 42.12962963%;
@@ -342,6 +358,9 @@ img{
 #tech_ln{
     top: 15.050167224%;
 }
+#overview{
+    background-color: #00000000 !important;
+}
 #overview_ln_0, #overview_ln_1{
     position: absolute;
     top: 9.444444444%;
@@ -393,7 +412,77 @@ img{
     #contact_phone_number_deco{
         top: calc(60.606060606% - 4.11%);
     }
+    #project_details_deco{
+        top: calc(16.722408027% - 12%);
+    }
 }
+.sl_x_container{
+    position: absolute;
+    left: 1.670644391%;
+    width: 42.840095465%;
+    height: 15.719063545%;
+    display: flex;
+    align-items: center;
+}
+#sl_0_container, #sl_4_container{
+    top: 17.725752508%;
+}
+#sl_1_container, #sl_5_container{
+    top: 37.79264214%;
+}
+#sl_2_container, #sl_6_container{
+    top: 57.859531773%;
+}
+#sl_3_container, #sl_7_container{
+    top: 77.926421405%;
+}
+.l{
+    left: 51.551312649%;
+}
+#tech_ln_v{
+    position: absolute;
+    top: 21.739130435%;
+    left: 47.85202864%;
+    width: 0.11vh;
+    height: 70.903010033%;
+    background-color: #001AFF70;
+}
+.sl_x_l{
+    color: #FFF;
+    font-size: 1vw;
+    width: 42.339832869%;
+    font-weight: 300;
+}
+.sl_indi_container{
+    position: absolute;
+    top: 25.531914894%;
+    left: 48.189415042%;
+    width: 51.810584958%;
+    height: 51.063829787%;
+}
+.sl_l0, .sl_l1, .sl_l2, .sl_l3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24.193548387%;
+    height: 100%;
+}
+.f{
+    background-color: #001AFF30;
+}
+.i{
+    background-color: #001AFF90;
+}
+.sl_l1{
+    left: calc((24.193548387% + 1.075268817%) * 1);
+}
+.sl_l2{
+    left: calc((24.193548387% + 1.075268817%) * 2);
+}
+.sl_l3{
+    left: calc((24.193548387% + 1.075268817%) * 3);
+}
+
 @media only screen and (max-height: 770px){
     #contact_phone_number_deco{
         top: calc(60.606060606% - 4.11%);
