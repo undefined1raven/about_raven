@@ -8,6 +8,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('view-engine', 'ejs');
 
 
+if (process.env.NODE_ENV === 'production') {
+   app.enable('trust proxy');
+   app.use((req, res, next) => {
+      req.secure ? next() : res.redirect('https://' + req.headers.host + req.url)
+   });//HTTPS Auto-redirect
+}
 
 
 app.get('/', (req, res) => {
