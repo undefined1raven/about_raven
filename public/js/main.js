@@ -44,4 +44,18 @@ $('#project_details_back_btn').addEventListener('click', () => {
 
 $('#project_dolores_container').addEventListener('click', () => {
     hide_projects_overview();
+    hide('ring_relay_details_acx');
+    hide('ring_relay_tech_tools_list');
+    show('project_dolores_details_acx');
+    show('project_dolores_tech_tools_list');
+    $('#project_details_title_l').innerText = 'Project Dolores';
+});
+
+$('#ring_relay_container').addEventListener('click', () => {
+    hide_projects_overview();
+    hide('project_dolores_details_acx');
+    hide('project_dolores_tech_tools_list');
+    show('ring_relay_details_acx');
+    show('ring_relay_tech_tools_list');
+    $('#project_details_title_l').innerText = 'Ring Relay';
 });
