@@ -4,7 +4,8 @@ body, html{
     background-color: #000;
     overflow: hidden;
     cursor: url('../visual_assets/cursor_acx.svg'), auto;
-    font-family: 'Roboto Mono', monospace;
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Titillium Web', sans-serif;
 }
 
 @keyframes container_in {
@@ -48,7 +49,6 @@ body, html{
     top: 5.797101449%;
     left: 0;
     color: #FFF;
-    font-weight: 300;
 }
 .x_details_acx{
     position: absolute;
@@ -59,21 +59,20 @@ body, html{
     color: rgb(202, 202, 202);
     display: none;
     font-size: 1vw;
-    font-weight: 200;
+    font-weight: 300;
 }
 .nli{
     position: absolute;
-    font-weight: 200;
     list-style-type: none;
     left: -2%;
 }
 .tech_tool_elm{
     color: rgba(202,202,202);
     font-size: 0.9vw;
-    font-weight: 200;
 }
 .x_tech_tools_list{
     position: absolute;
+    display: none;
     top: 20%;
     left: 2%;
     margin: 0;
@@ -93,7 +92,6 @@ body, html{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 300;
     font-size: 1vw;
     background-color: #0013BA20;
     transition: background-color linear 0.1s;
@@ -106,7 +104,6 @@ body, html{
     left: 11.764705882%;
     color: #FFF;
     font-size: 1vw;
-    font-weight: 300;
 }
 #cursor_bkg, #cursor_bkg_lrd{
     position: absolute;
@@ -147,7 +144,6 @@ img{
     left: 2.15285253%;
     font-size: 1.8329938900203666vh;/*18px*/
     color: #8000FF;
-    font-weight: 300;
 }
 #project_eagle_status_l{
     color: #00FFF0;
@@ -158,7 +154,6 @@ img{
     left: 1.431980907%;
     color: #AAA;
     font-size: 1.1vw;/*nope 28px*/
-    font-weight: 300;
 }
 #tech_l{
     top: 2.675585284%; 
@@ -203,9 +198,9 @@ img{
     left: 1.551312649%;
     width: 96.897374702%;
     height: 84.415584416%;
-    font-weight: 300;
     color: #FFF;
     font-size: 1.1vw;
+    font-weight: 300;
 }
 #projects_top_container{
     position: absolute;
@@ -222,7 +217,6 @@ img{
     left: 1.399354144%;
     color: #B3B3B3;
     font-size: 1.1vw;
-    font-weight: 300;
 }
 #projects_top_ln_0{
     position: absolute;
@@ -241,7 +235,6 @@ img{
     justify-content: center;
     color: #565656;
     font-size: 1vw;
-    font-weight: 300;
 }
 #projects_top_name_l{
     left: 1.506996771%;
@@ -287,21 +280,18 @@ img{
     position: absolute;
     color: #EEE;
     font-size: 1.1vw;
-    font-weight: 300;
     left: 2.15285253%;
 }
 .project_x_duration_l{
     position: absolute;
     color: #EEE;
     font-size: 1.1vw;
-    font-weight: 300;
     left: 32.508073197%;
 }
 .project_x_lang_tech_l{
     position: absolute;
     color: #EEE;
     font-size: 1.1vw;
-    font-weight: 300;
     left: 65.016146394%;
 }
 #ring_relay_container{
@@ -397,7 +387,6 @@ img{
     /* left: 6.493506494%; */
     font-size: 1.8329938900203666vh;/*18px*/
     color: #A3A3A3;
-    font-weight: 300;
 }
 #contact_phone_number_l{
     top: 65.151515152%;
@@ -538,8 +527,29 @@ img{
     color: #FFF;
     font-size: 1vw;
     width: 42.339832869%;
-    font-weight: 300;
 }
+#sf{
+    font-size: 1vw;
+}
+#view_live_deployment_btn{
+    position: absolute;
+    top: 57.777777778%;
+    left: 65.677083333%;
+    width: 16.354166667%;
+    height: 4.537037037%;
+    font-size: 1vw;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000AFF20;
+    border: solid 1px #000AFF;
+    transition: background-color linear 0.1s;
+}
+#view_live_deployment_btn:hover{
+    background-color: #000AFF40;
+}
+
 .sl_indi_container{
     position: absolute;
     top: 25.531914894%;
